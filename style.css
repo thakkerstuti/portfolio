@@ -427,11 +427,12 @@ section{position:relative;z-index:1}
   font-family:var(--font-mono);font-size:.62rem;letter-spacing:.15em;text-transform:uppercase;
   color:var(--text-mid);display:inline-flex;align-items:center;gap:.5rem;
   border-bottom:1px solid var(--border);padding-bottom:.25rem;
-  transition:color .3s,border-color .3s;align-self:flex-start;
+  transition:color .3s,border-color .3s;
 }
 .bcard:hover .bc-cta{color:var(--aurora1);border-color:var(--aurora1)}
 .cta-arr{transition:transform .3s}
 .bcard:hover .cta-arr{transform:translate(4px,-4px)}
+.bc-actions{display:flex;gap:1.5rem;margin-top:auto;padding-top:1rem}
 .bcard-2{position:relative}
 .bcard-2 .bc-bg{
   position:absolute;bottom:-30px;left:-30px;width:200px;height:200px;border-radius:50%;
