@@ -225,7 +225,7 @@ section{position:relative;z-index:1}
 }
 .hero-stat{
   background:var(--deep);padding:1.4rem 1.8rem;
-  display:flex;align-items:baseline;gap:.8rem;
+  display:flex;align-items:center;gap:1.2rem;
   transition:background .3s;
 }
 .hero-stat:hover{background:var(--surface)}
