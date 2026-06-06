@@ -460,9 +460,36 @@ section{position:relative;z-index:1}
 }
 .sparkline-svg{position:absolute;bottom:1.8rem;right:1.8rem;opacity:.18;transition:opacity .4s}
 .bcard-4:hover .sparkline-svg{opacity:.45}
+
+.bcard-5{
+  grid-column: span 2;
+  position: relative;
+}
+.bcard-5 .bc-bg{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  background: linear-gradient(to left, rgba(16, 185, 129, 0.08), transparent);
+  pointer-events: none;
+}
+.prediction-svg{
+  position: absolute;
+  bottom: 1.8rem;
+  right: 1.8rem;
+  opacity: .25;
+  transition: opacity .4s, transform .4s;
+}
+.bcard-5:hover .prediction-svg{
+  opacity: .7;
+  transform: scale(1.05);
+}
+
 @media(max-width:900px){
   .bento{grid-template-columns:1fr}
   .bcard-1{grid-row:auto;min-height:380px}
+  .bcard-5{grid-column: span 1}
 }
 
 /* ─── EXPERIENCE ─────────────────────────────────── */
